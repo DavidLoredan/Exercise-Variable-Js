@@ -23,7 +23,8 @@ console.log(description)
    let peopleFollowing = 1500;
 console.log(peopleFollowing)
 
-  let whatTimeIsIt = new Date();
+const whatTimeIsIt = new Date('Mars 08, 13:04' );
+  console.log(whatTimeIsIt.getHours());
   
   
   
